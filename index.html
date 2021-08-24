@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Stephen Landaas, Arnold Gozum, Ali Hussain">
+        <meta name="description" content="A matrix calculator capable of performing addition, subtraction, multiplication, inversion, and determinants of 1x1 - 4x4 matrices.">
+        <title>Matrix Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="main-heading">MATRIX CALCULATOR</h1>
+        </header>
+
+        <div class="primary-container" id="operation-selection">
+            <h2 class="selection-heading">SELECT YOUR OPERATION</h2>
+            <div class="input-container">
+                <select name="operations" id="operations">
+                    <option value="add">Add Matrices</option>
+                    <option value="subtract">Subtract Matrices</option>
+                    <option value="matrix-mult">Matrix Multiplication</option>
+                    <option value="invert">Matrix Inversion</option>
+                    <option value="determinant">Compute Determinant</option>
+                </select>
+                <button id="submit-operation">SUBMIT OPERATION</button>
+            </div>
+        </div>
+        <script src="setupscript.js"></script>
+    </body>
+</html>

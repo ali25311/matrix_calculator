@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Matrix Calculator</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <header>
+            <h1 class="main-heading">MATRIX CALCULATOR</h1>
+        </header>
+
+        <div class="primary-container" id="operation-selection">
+            <!-- only change here -->
+            <h2 class="selection-heading">
+                Enter your desired dimensions:
+            </h2>
+            <div class="input-container">
+                <div class="dimensions-input">
+                    <input type="number" max="4" min="1" value = "1" id="dimension-1" name="dimension-1"
+                        class="dimensions-input-box" autocomplete="off"/><br />
+                    <p>X</p>
+                    <input type="number" max="4" min="1" value="1" id="dimension-2" name="dimension-2"
+                        class="dimensions-input-box" autocomplete="off"/><br/>
+                </div>
+                <button id="submit-1-dimensions-op">SUBMIT DIMENSIONS</button>
+            </div>
+        </div>
+        <script src="single-matrix-dimensions-input-script.js"></script>
+    </body>
+</html>
